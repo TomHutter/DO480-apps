@@ -1,7 +1,4 @@
 kind: Kustomization
 bases:
-  - deployment-frontend.yaml
-  - deployment.yaml
-  - service-frontend.yaml
-  - service.yaml
-nameSuffix: "-apac"
+  - ../../base
+nameSuffix: "-emea"
