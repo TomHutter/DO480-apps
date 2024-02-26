@@ -1,6 +1,7 @@
 kind: Kustomization
 bases:
   - ../../base
+  - route.yaml
 nameSuffix: "-apac"
 images:
   - name: mysql
